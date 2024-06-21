@@ -1,0 +1,49 @@
+h1{
+    color:#025259;
+    font-size: 60px;
+    margin: 0;
+}
+.subtitulo
+{color:#D94F04 ;
+font-size:30px;
+;
+}
+
+body{
+    background-color: #f3eeed;
+}
+.titulo_principal {
+    font-family: bree serif;
+    text-align: center;
+
+}
+.subtitulo{
+    font-family: League Spartan;
+    color:#D94F04;
+    text-align: center;
+    line-height:2%;
+}
+.titulosdesecciones{
+    font-family: bree serif;
+    color:#025259;
+}
+.textos{
+    font-family:League Spartan ;
+    font-size: 16px;
+}
+div{
+    ul {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-template-rows: 30px;
+        }
+        li {
+        display: inline;
+        justify-content: center;
+        align-items: center;
+        }
+}
+.contacto{
+    font-family: bree serif;
+    font-size: small;
+}
