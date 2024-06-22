@@ -1,12 +1,12 @@
 h1{
     color:#025259;
     font-size: 80px;
-    margin: 0;
+    margin: 50px 50px;
 }
 .subtitulo
 {color:#D94F04 ;
 font-size:50px;
-;
+margin: 50px 50px;
 }
 
 body{
@@ -15,44 +15,41 @@ body{
 .titulo_principal {
     font-family: bree serif;
     text-align: center;
+    margin: 50px 50px;
 
 }
 .subtitulo{
     font-family: League Spartan;
     color:#D94F04;
     text-align: center;
-    line-height:2%;
+    margin: 50px 50px;
 }
 .titulosdesecciones{
     font-family: bree serif;
     color:#025259;
     font-size: 40px;
-    text-align:justify;
-    line-height: 50%;
+    margin: 50px 50px;
 }
 .textos{
     font-family:League Spartan ;
     font-size: 30px;
-    text-align:left;
+    margin: 50px 50px;
 }
 nav {
     left: 0;
     width: 100%;
     background-color: #025259;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin: 50px 50px;
     
   }
-  .textos {
+  .textoss {
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-template-rows: 80px;
+    margin: 50px 50px;
     }
-    li {
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    }
-  .textos:hover {
+  .textoss:hover {
     background-color: #d0ff002f;
     transition: all 0.4s ease-in-out;
   }
