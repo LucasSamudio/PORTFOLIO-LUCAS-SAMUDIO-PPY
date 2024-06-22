@@ -1,16 +1,16 @@
 h1{
     color:#025259;
-    font-size: 60px;
+    font-size: 80px;
     margin: 0;
 }
 .subtitulo
 {color:#D94F04 ;
-font-size:30px;
+font-size:50px;
 ;
 }
 
 body{
-    background-color: #f3eeed;
+    background-color: #efffa7;
 }
 .titulo_principal {
     font-family: bree serif;
@@ -26,24 +26,57 @@ body{
 .titulosdesecciones{
     font-family: bree serif;
     color:#025259;
+    font-size: 40px;
+    text-align:justify;
+    line-height: 50%;
 }
 .textos{
     font-family:League Spartan ;
-    font-size: 16px;
+    font-size: 30px;
+    text-align:left;
 }
-div{
-    ul {
-        display: grid;
-        grid-template-columns: auto auto auto auto;
-        grid-template-rows: 30px;
-        }
-        li {
-        display: inline;
-        justify-content: center;
-        align-items: center;
-        }
-}
-.contacto{
-    font-family: bree serif;
-    font-size: small;
-}
+nav {
+    left: 0;
+    width: 200%;
+    background-color: #FEFFD2;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  .textos {
+    color: #FF7D29;
+    padding: 55px;
+    display: inline-block;
+  }
+  .textos:hover {
+    background-color: #FEFFD2;
+    transition: all 0.4s ease-in-out;
+  }
+  header {
+    background-color: #FEFFD2;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  #habilidades ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #habilidades ul li {
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid #FF7D29;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  #experiencia ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #experiencia ul li {
+    margin-bottom: 10px;
+  }
+  #sociales {
+    list-style: none;
+  }
